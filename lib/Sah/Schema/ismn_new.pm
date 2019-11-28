@@ -12,7 +12,7 @@ From Jan 1, 2008, ISMN is defined as thirteen digit identifier beginning with
 
 _
     match => '\A[0-9]{13}\z',
-    'x.perl.coerce_rules' => ['str_to_isbn13'],
+    'x.perl.coerce_rules' => ['From_str::to_isbn13'],
 }, {}];
 
 1;
